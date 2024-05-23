@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dwennnwiehgn0"]
+[gd_scene load_steps=7 format=3 uid="uid://dwennnwiehgn0"]
 
 [ext_resource type="PackedScene" uid="uid://cinbsgf8nth6h" path="res://Player/player.tscn" id="1_uyht1"]
+[ext_resource type="PackedScene" uid="uid://bv08vic6ul0a4" path="res://Ragdoll/bas_emodel.tscn" id="2_yigef"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_1vvkx"]
 
@@ -34,10 +35,13 @@ shape = SubResource("BoxShape3D_fcu2x")
 mesh = SubResource("BoxMesh_2sq01")
 
 [node name="player" parent="." instance=ExtResource("1_uyht1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.25788, 5.3573, 1.92832)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15177, 1.09688, 7.53963)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.480487, -0.760513, 0.436752, 0.202571, 0.580781, 0.788453, -0.853286, -0.290368, 0.433116, 0, 4.93452, 0)
 light_energy = 2.131
 shadow_enabled = true
 directional_shadow_split_1 = 0.095
+
+[node name="BASEmodel" parent="." instance=ExtResource("2_yigef")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.09249, 0, 2.20092)

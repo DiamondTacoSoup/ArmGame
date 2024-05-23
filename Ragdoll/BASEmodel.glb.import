@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bbmadsafl0da4"
-path="res://.godot/imported/BASEmode.glb-b43f2f714d9dac8adeb560c52dad6bff.scn"
+uid="uid://bntqjxiudv8bb"
+path="res://.godot/imported/BASEmodel.glb-307c4364339462bc1c9aac423c0ece27.scn"
 
 [deps]
 
-source_file="res://Player/BASEmode.glb"
-dest_files=["res://.godot/imported/BASEmode.glb-b43f2f714d9dac8adeb560c52dad6bff.scn"]
+source_file="res://Ragdoll/BASEmodel.glb"
+dest_files=["res://.godot/imported/BASEmodel.glb-307c4364339462bc1c9aac423c0ece27.scn"]
 
 [params]
 
